@@ -110,9 +110,10 @@
                         </connections>
                     </view>
                     <navigationItem key="navigationItem" title="Tip Calculator" id="IO3-dr-Vue">
-                        <barButtonItem key="rightBarButtonItem" title="Settings" id="5qw-BR-YOs">
+                        <barButtonItem key="rightBarButtonItem" title="Settings" id="hmg-uF-Hur">
                             <connections>
-                                <segue destination="469-nY-fLS" kind="push" id="Tik-gW-wK1"/>
+                                <action selector="settingsTapped" destination="BYZ-38-t0r" id="qNt-mc-QkU"/>
+                                <segue destination="469-nY-fLS" kind="push" id="oUh-0b-Nhu"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
